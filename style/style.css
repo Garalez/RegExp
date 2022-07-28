@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(235, 235, 235);
+}
+
+p {
+  margin: 0;
+}
+
+.input-wrapper {
+  margin: 0 auto;
+  width: 70vw;
+  height: 80vh;
+  display: flex;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.textarea {
+  width: 100%;
+  resize: none;
+  padding: 10px 0 0 10px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+
+.input-result {
+  width: 100%;
+  margin: 0;
+  padding: 10px 0 0 10px;
+  background-color: #fff;
+  font-size: 18px;
+  font-family: Consolas;
+  font-weight: 400;
+  line-height: 25px;
+  border-radius: 15px;
+  border: 1px solid black;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+.btn-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typograph-btn {  
+  width: 150px;
+  height: 40px;
+  color: white;
+  background: linear-gradient(to bottom,#1897ff 0,#126aff 100%);
+  border: none;
+  border-radius: 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
