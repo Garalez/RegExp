@@ -36,7 +36,7 @@ const strUrls = 'http://site.ru, https://site.com';
 const urlsToLinks = (str) => {
   str = str.replace(/[^\s|,]+/g, (url) => {
     const createLink = url.replace(url, `<a href="${url}">${url}</a>`);
-    return createLink.replace().replace(/>https?:\/\//g, '>');
+    return createLink.replace(/>https?:\/\//g, '>');
   });
 
   return str;
